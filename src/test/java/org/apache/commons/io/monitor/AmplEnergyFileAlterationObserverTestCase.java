@@ -10,8 +10,58 @@ import org.apache.commons.io.filefilter.FileFilterUtils;
 import org.apache.commons.io.filefilter.NameFileFilter;
 import org.junit.jupiter.api.Assertions;
 import org.powerapi.jjoules.junit5.EnergyTest;
-public class FileAlterationObserverTestCase extends AbstractMonitorTestCase {
-    public FileAlterationObserverTestCase() {
+public class AmplEnergyFileAlterationObserverTestCase extends AbstractMonitorTestCase {
+
+    @EnergyTest
+    public void aaawarmup0() {
+        System.out.println("aaawarmup");
+    }
+    
+    @EnergyTest
+    public void aaawarmup1() {
+        System.out.println("aaawarmup");
+    }
+    
+    @EnergyTest
+    public void aaawarmup2() {
+        System.out.println("aaawarmup");
+    }
+    
+    @EnergyTest
+    public void aaawarmup3() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup4() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup5() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup6() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup7() {
+    }
+
+    @EnergyTest
+    public void aaawarmup8() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup9() {
+        System.out.println("aaawarmup");
+    }
+
+    public AmplEnergyFileAlterationObserverTestCase() {
         listener = new CollectionFileListener(true);
     }
 

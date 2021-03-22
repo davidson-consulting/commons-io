@@ -15,10 +15,62 @@ limitations under the License.
  */
 package org.apache.commons.io.monitor;
 import java.io.IOException;
+
+import org.powerapi.jjoules.junit5.EnergyTest;
 /**
  * {@link FileAlterationObserver} Test Case.
  */
 public class FileAlterationObserverTestCase extends org.apache.commons.io.monitor.AbstractMonitorTestCase {
+
+    @EnergyTest
+    public void aaawarmup0() {
+        System.out.println("aaawarmup");
+    }
+    
+    @EnergyTest
+    public void aaawarmup1() {
+        System.out.println("aaawarmup");
+    }
+    
+    @EnergyTest
+    public void aaawarmup2() {
+        System.out.println("aaawarmup");
+    }
+    
+    @EnergyTest
+    public void aaawarmup3() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup4() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup5() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup6() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup7() {
+    }
+
+    @EnergyTest
+    public void aaawarmup8() {
+        System.out.println("aaawarmup");
+    }
+
+    @EnergyTest
+    public void aaawarmup9() {
+        System.out.println("aaawarmup");
+    }
+
     /**
      * Construct a new test case.
      */
@@ -29,7 +81,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
     /**
      * Test add/remove listeners.
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testAddRemoveListeners() {
         final org.apache.commons.io.monitor.FileAlterationObserver observer = new org.apache.commons.io.monitor.FileAlterationObserver("/foo");
         // Null Listener
@@ -52,7 +104,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
     /**
      * Test toString().
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testToString() {
         final java.io.File file = new java.io.File("/foo");
         org.apache.commons.io.monitor.FileAlterationObserver observer = new org.apache.commons.io.monitor.FileAlterationObserver(file);
@@ -68,7 +120,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
      * @throws Exception
      * 		
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testDirectory() throws java.lang.Exception {
         checkAndNotify();
         checkCollectionsEmpty("A");
@@ -124,7 +176,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
      * @throws IOException
      * 		if an I/O error occurs.
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testFileCreate() throws java.io.IOException {
         checkAndNotify();
         checkCollectionsEmpty("A");
@@ -180,7 +232,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
      * @throws IOException
      * 		if an I/O error occurs.
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testFileUpdate() throws java.io.IOException {
         checkAndNotify();
         checkCollectionsEmpty("A");
@@ -233,7 +285,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
      * @throws IOException
      * 		if an I/O error occurs.
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testFileDelete() throws java.io.IOException {
         checkAndNotify();
         checkCollectionsEmpty("A");
@@ -289,7 +341,7 @@ public class FileAlterationObserverTestCase extends org.apache.commons.io.monito
      * @throws IOException
      * 		if an I/O error occurs.
      */
-    @org.powerapi.jjoules.junit5.EnergyTest
+    @EnergyTest
     public void testObserveSingleFile() throws java.io.IOException {
         final java.io.File testDirA = new java.io.File(testDir, "test-dir-A");
         java.io.File testDirAFile1 = new java.io.File(testDirA, "A-file1.java");
