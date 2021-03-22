@@ -1,0 +1,371 @@
+{
+  "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase",
+  "nbOriginalTestCases": 7,
+  "nbTestAmplified": 0,
+  "testCases": [
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners",
+      "energy": 62621.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString",
+      "energy": 34484.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate",
+      "energy": 1.14753125E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete",
+      "energy": 1.1491396E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile",
+      "energy": 6808728.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory",
+      "energy": 7610606.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate",
+      "energy": 1.4891075E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString119",
+      "energy": 1.14761975E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString118",
+      "energy": 1.1392824E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString50",
+      "energy": 6884839.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString51",
+      "energy": 6863813.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners_literalMutationString25",
+      "energy": 63232.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString58",
+      "energy": 6916608.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners_literalMutationString24",
+      "energy": 20965.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString59",
+      "energy": 6896649.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners_literalMutationString23",
+      "energy": 20996.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString56",
+      "energy": 6898968.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners_literalMutationString22",
+      "energy": 21118.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString57",
+      "energy": 6941510.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString54",
+      "energy": 6986097.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString55",
+      "energy": 6965253.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners_literalMutationString27",
+      "energy": 20782.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString52",
+      "energy": 6882703.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners_literalMutationString26",
+      "energy": 20935.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString53",
+      "energy": 6958844.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString_literalMutationString314",
+      "energy": 20691.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString_literalMutationString315",
+      "energy": 20935.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate_literalMutationString238",
+      "energy": 1.47956165E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate_literalMutationString239",
+      "energy": 1.48457565E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString_literalMutationString310",
+      "energy": 20782.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString_literalMutationString311",
+      "energy": 21148.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString_literalMutationString312",
+      "energy": 20996.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString_literalMutationString313",
+      "energy": 21026.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString141",
+      "energy": 1.1411348E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile",
+      "energy": 6869031.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory",
+      "energy": 7698253.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString61",
+      "energy": 6907575.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testToString",
+      "energy": 17792.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString62",
+      "energy": 6935376.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString60",
+      "energy": 6838086.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString63",
+      "energy": 6863508.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString139",
+      "energy": 1.1324922E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString138",
+      "energy": 1.1324464E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete",
+      "energy": 1.14198005E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString131",
+      "energy": 1.13157365E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate_literalMutationString243",
+      "energy": 1.4755791E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString130",
+      "energy": 1.1377473E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString133",
+      "energy": 1.15101325E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate_literalMutationString241",
+      "energy": 1.4738518E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate_literalMutationString242",
+      "energy": 1.47677235E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString135",
+      "energy": 1.1314546E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString134",
+      "energy": 1.13006305E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate_literalMutationString240",
+      "energy": 1.48377E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString137",
+      "energy": 1.1304628E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString136",
+      "energy": 1.13416765E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString267",
+      "energy": 6812635.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testAddRemoveListeners",
+      "energy": 40893.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString266",
+      "energy": 6808912.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString269",
+      "energy": 6815869.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString268",
+      "energy": 6961560.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString263",
+      "energy": 6862897.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString262",
+      "energy": 6840833.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString140",
+      "energy": 1.1321016E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString265",
+      "energy": 6794935.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString264",
+      "energy": 6857771.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete_literalMutationString215",
+      "energy": 1.14111645E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete_literalMutationString214",
+      "energy": 1.1324068E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete_literalMutationString217",
+      "energy": 1.145572E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete_literalMutationString216",
+      "energy": 1.1374025E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete_literalMutationString219",
+      "energy": 1.1461488E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileDelete_literalMutationString218",
+      "energy": 1.13860185E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileUpdate",
+      "energy": 1.48864975E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString128",
+      "energy": 1.14295975E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString127",
+      "energy": 1.13455825E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString129",
+      "energy": 1.13300185E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString49",
+      "energy": 6879499.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString120",
+      "energy": 1.13543415E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString270",
+      "energy": 6850294.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString122",
+      "energy": 1.1397798E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString272",
+      "energy": 6823163.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString121",
+      "energy": 1.135016E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString271",
+      "energy": 6823163.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString124",
+      "energy": 1.13645025E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString123",
+      "energy": 1.1367616E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString126",
+      "energy": 1.1440309E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate_literalMutationString125",
+      "energy": 1.13635265E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testFileCreate",
+      "energy": 1.1443208E7
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testObserveSingleFile_literalMutationString273",
+      "energy": 6829328.0
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString47",
+      "energy": 6881421.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString48",
+      "energy": 6904401.5
+    },
+    {
+      "name": "org.apache.commons.io.monitor.FileAlterationObserverTestCase-testDirectory_literalMutationString46",
+      "energy": 6893262.5
+    }
+  ]
+}
