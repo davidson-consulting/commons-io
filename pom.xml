@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
    Licensed to the Apache Software Foundation (ASF) under one or more
    contributor license agreements.  See the NOTICE file distributed with
    this work for additional information regarding copyright ownership.
@@ -14,8 +13,7 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
--->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-parent</artifactId>
@@ -60,7 +58,7 @@ file comparators, endian transformation classes, and much more.
       <name>Scott Sanders</name>
       <id>sanders</id>
       <email>sanders@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -70,7 +68,7 @@ file comparators, endian transformation classes, and much more.
       <!-- Note: first name is correctly capitalised above -->
       <id>dion</id>
       <email>dion@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -79,7 +77,7 @@ file comparators, endian transformation classes, and much more.
       <name>Nicola Ken Barozzi</name>
       <id>nicolaken</id>
       <email>nicolaken@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -88,7 +86,7 @@ file comparators, endian transformation classes, and much more.
       <name>Henri Yandell</name>
       <id>bayard</id>
       <email>bayard@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -96,7 +94,7 @@ file comparators, endian transformation classes, and much more.
     <developer>
       <name>Stephen Colebourne</name>
       <id>scolebourne</id>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -106,7 +104,7 @@ file comparators, endian transformation classes, and much more.
       <name>Jeremias Maerki</name>
       <id>jeremias</id>
       <email>jeremias@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -116,7 +114,7 @@ file comparators, endian transformation classes, and much more.
       <name>Matthew Hawthorne</name>
       <id>matth</id>
       <email>matth@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -125,7 +123,7 @@ file comparators, endian transformation classes, and much more.
       <name>Martin Cooper</name>
       <id>martinc</id>
       <email>martinc@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -134,7 +132,7 @@ file comparators, endian transformation classes, and much more.
       <name>Rob Oxspring</name>
       <id>roxspring</id>
       <email>roxspring@apache.org</email>
-      <organization />
+      <organization/>
       <roles>
         <role>Java Developer</role>
       </roles>
@@ -283,7 +281,7 @@ file comparators, endian transformation classes, and much more.
       <version>${jmh.version}</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+  <dependency><groupId>org.powerapi.jjoules</groupId><artifactId>junit-jjoules</artifactId><version>1.0-SNAPSHOT</version></dependency></dependencies>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -478,7 +476,7 @@ file comparators, endian transformation classes, and much more.
           </parameter>
         </configuration>
       </plugin>
-    </plugins>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><configuration><runOrder>random</runOrder></configuration></plugin></plugins>
   </build>
 
   <reporting>
@@ -537,18 +535,18 @@ file comparators, endian transformation classes, and much more.
                 <configuration>
                   <target>
                     <exec executable="svn">
-                      <arg line="checkout --depth immediates ${commons.scmPubUrl} ${commons.scmPubCheckoutDirectory}" />
+                      <arg line="checkout --depth immediates ${commons.scmPubUrl} ${commons.scmPubCheckoutDirectory}"/>
                     </exec>
 
                     <exec executable="svn">
-                      <arg line="update --set-depth exclude ${commons.scmPubCheckoutDirectory}/javadocs" />
+                      <arg line="update --set-depth exclude ${commons.scmPubCheckoutDirectory}/javadocs"/>
                     </exec>
 
                     <pathconvert pathsep=" " property="dirs">
-                      <dirset dir="${commons.scmPubCheckoutDirectory}" includes="*" />
+                      <dirset dir="${commons.scmPubCheckoutDirectory}" includes="*"/>
                     </pathconvert>
                     <exec executable="svn">
-                      <arg line="update --set-depth infinity ${dirs}" />
+                      <arg line="update --set-depth infinity ${dirs}"/>
                     </exec>
                   </target>
                 </configuration>
