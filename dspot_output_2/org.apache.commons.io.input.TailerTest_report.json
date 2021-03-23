@@ -1,0 +1,11 @@
+{
+  "name": "org.apache.commons.io.input.TailerTest",
+  "nbOriginalTestCases": 10,
+  "nbTestAmplified": 0,
+  "testCases": [
+    {
+      "name": "org.apache.commons.io.input.TailerTest-testBufferBreak",
+      "energy": 2394891.5
+    }
+  ]
+}
