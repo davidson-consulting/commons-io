@@ -13,14 +13,9 @@ def clean_compile():
         'mvn -Drat.skip=true -Djacoco.skip=true -Danimal.sniffer.skip=true clean test -DskipTests'
     )
 
-def run_test(test_classes):
+def run_test():
     run_command(
-        'mvn -Drat.skip=true -Djacoco.skip=true -Danimal.sniffer.skip=true test -Dtest=org.apache.commons.io.monitor.AmplEnergyFileAlterationObserverTestCase#testToString_literalMutationString310_manual'
-    )
-
-def run_test_m():
-    run_command(
-        'mvn -Drat.skip=true -Djacoco.skip=true -Danimal.sniffer.skip=true test -Dtest='
+        'mvn -Drat.skip=true -Djacoco.skip=true -Danimal.sniffer.skip=true test -Dtest=org.apache.commons.io.monitor.AmplEnergyFileAlterationObserverTestCase#aaawarmup0+aaawarmup1+aaawarmup2+aaawarmup3+aaawarmup4+aaawarmup5+aaawarmup6+aaawarmup7+aaawarmup8+aaawarmup9+testToString_literalMutationString310_manual'
     )
 
 def copy_jjoules_reports_for_iteration(iteration):
@@ -55,5 +50,5 @@ if __name__ == '__main__':
     mkdir(PATH_FOLDER_RESULTS)
     
     for i in range(0, NB_ITERATION):
-        run_test_m()
+        run_test()
         copy_and_delete_jjoules_reports_for_iteration(i)
