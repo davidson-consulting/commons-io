@@ -302,6 +302,16 @@ public class AmplEnergyFileAlterationObserverTestCase extends AbstractMonitorTes
     }
 
     @EnergyTest
+    public void testToString_literalMutationString310_manual() throws Exception {
+        final java.io.File file = new java.io.File("");
+        org.apache.commons.io.monitor.FileAlterationObserver observer = new org.apache.commons.io.monitor.FileAlterationObserver(file);
+        org.junit.jupiter.api.Assertions.assertEquals("FileAlterationObserver[file=\'\', listeners=0]", observer.toString());
+        observer = new org.apache.commons.io.monitor.FileAlterationObserver(file, org.apache.commons.io.filefilter.CanReadFileFilter.CAN_READ);
+        org.junit.jupiter.api.Assertions.assertEquals("FileAlterationObserver[file=\'\', CanReadFileFilter, listeners=0]", observer.toString());
+        org.junit.jupiter.api.Assertions.assertEquals(file, observer.getDirectory());
+    }
+
+    @EnergyTest
     public void testToString_literalMutationString310() throws Exception {
         final File file = new File("");
         FileAlterationObserver observer = new FileAlterationObserver(file);
