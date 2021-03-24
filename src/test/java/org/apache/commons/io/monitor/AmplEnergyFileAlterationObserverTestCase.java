@@ -10,6 +10,9 @@ import org.apache.commons.io.filefilter.FileFilterUtils;
 import org.apache.commons.io.filefilter.NameFileFilter;
 import org.junit.jupiter.api.Assertions;
 import org.powerapi.jjoules.junit5.EnergyTest;
+import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.MethodOrderer.MethodName;
+@TestMethodOrder(MethodName.class)
 public class AmplEnergyFileAlterationObserverTestCase extends AbstractMonitorTestCase {
 
     @EnergyTest

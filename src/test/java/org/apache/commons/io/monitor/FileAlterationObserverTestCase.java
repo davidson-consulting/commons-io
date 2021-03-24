@@ -20,6 +20,9 @@ import org.powerapi.jjoules.junit5.EnergyTest;
 /**
  * {@link FileAlterationObserver} Test Case.
  */
+import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.MethodOrderer.MethodName;
+@TestMethodOrder(MethodName.class)
 public class FileAlterationObserverTestCase extends org.apache.commons.io.monitor.AbstractMonitorTestCase {
 
     @EnergyTest
