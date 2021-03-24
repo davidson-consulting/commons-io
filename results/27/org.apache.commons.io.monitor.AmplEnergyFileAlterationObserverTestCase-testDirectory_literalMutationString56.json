@@ -1,13 +1,13 @@
 {
-  "device|mW": 12137,
-  "package-0/dram|uJ": 394342,
-  "package|uJ": 7014265,
-  "package-0/dram|mW": 646,
-  "dram|uJ": 394342,
-  "package-0|uJ": 7014265,
-  "device|uJ": 7408607,
-  "duration|ns": 610406961,
-  "dram|mW": 646,
-  "package-0|mW": 11491,
-  "package|mW": 11491
+  "device|mW": 12110,
+  "package-0/dram|uJ": 397724,
+  "package|uJ": 6995953,
+  "package-0/dram|mW": 651,
+  "dram|uJ": 397724,
+  "package-0|uJ": 6995953,
+  "device|uJ": 7393677,
+  "duration|ns": 610534831,
+  "dram|mW": 651,
+  "package-0|mW": 11458,
+  "package|mW": 11458
 }
